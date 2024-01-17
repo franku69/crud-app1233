@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+    <style>
+        body {
+            padding-top: 60px; /* Add padding-top to account for the fixed navbar */
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+        <div class="container" style="background: rgb(211, 40, 40);">
+            <a class="navbar-brand" style="color: rgb(255, 255, 255);">FDS GYM PROJECT</a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <!-- Add any additional navigation links here -->
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5"  style="background: rgb(194, 189, 189);">
+        <h1>Contact Us</h1>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Contact Information</h2>
+                <p><strong>Email:</strong> example@example.com</p>
+                <p><strong>Phone:</strong> +1234567890</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Developers</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Angela Mendez</li>
+                    <li class="list-group-item">Isaiah Marc Postrero</li>
+                    <li class="list-group-item">John Francis Fabela</li>
+                    <li class="list-group-item">Khan Imroz</li>
+                    <li class="list-group-item">Xyrujon M. Bandiala</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+</body>
+
+</html>
